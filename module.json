@@ -1,0 +1,160 @@
+{
+  "id": "southern-realm-games",
+  "title": "Southern Realm Games Playtest",
+  "version": "1.0.3",
+  "url": "https://github.com/aclethos/Southern-Realm-Games",
+  "download": "https://github.com/aclethos/Southern-Realm-Games/archive/refs/heads/master.zip",
+  "manifest": "https://raw.githubusercontent.com/aclethos/Southern-Realm-Games/master/module.json",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Dustin Voss",
+      "discord": "Aclethos"
+    },
+    {
+      "name": "Matthew C. Ninness",
+      "discord": "tabletop.obscura"
+    },
+    {
+      "name": "Dan Hutton",
+      "discord": "dantalkygamer"
+    },
+    {
+      "name": "Shawn Pommier",
+      "discord": "eldritchdream"
+    },
+    {
+      "name": "Simon Hunter",
+      "discord": "simon.the.hunter"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "legendary-luminaries-actions",
+      "label": "Legendary Luminaries - Actions",
+      "path": "packs/legendary-luminaries-actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "legendary-luminaries-archetypes",
+      "label": "Legendary Luminaries - Archetypes",
+      "path": "packs/legendary-luminaries-archetypes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+     {
+      "name": "legendary-luminaries-spells",
+      "label": "Legendary Luminaries - Spells",
+      "path": "packs/legendary-luminaries-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+     {
+      "name": "blackpowder-actions",
+      "label": "Blackpowder - Actions",
+      "path": "packs/blackpowder-actions",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+     {
+      "name": "blackpowder-equipment",
+      "label": "Blackpowder - Equipment",
+      "path": "packs/blackpowder-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+     {
+      "name": "blackpowder-feats",
+      "label": "Blackpowder - Feats",
+      "path": "packs/blackpowder-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    },
+    {
+      "name": "blackpowder-subclass",
+      "label": "Blackpowder - Subclass",
+      "path": "packs/blackpowder-subclass",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+ "flags": {
+  "southern-realm-games": {
+    "pf2e-homebrew": {
+      "featTraits": {
+        "reassess": "Reassess"
+      },
+      "weaponTraits": {
+        "attached-to-fortress-shield": {
+          "label": "Attached to Fortress Shield",
+          "description": "A weapon with this trait is attached to a Fortress Shield"
+        },
+        "attached-to-tower-shield": {
+          "label": "Attached to Tower Shield",
+          "description": "A weapon with this trait is attached to a Tower Shield"
+        },
+        "imprecise": {
+          "label": "Imprecise",
+          "description": "A weapon with this trait cannot deal precision damage."
+        }
+      }
+    }
+  }
+},
+  "packFolders":[
+    {
+      "name": "Southern Realm Games",
+    "sorting": "m",
+    "color": "#974ADC",
+    "packs": [
+      "blackpowder-actions",
+      "blackpowder-equipment",
+      "blackpowder-feats",
+      "blackpowder-subclass",
+      "legendary-luminaries-actions",
+      "legendary-luminaries-archetypes",
+      "legendary-luminaries-spells"
+    ]
+    }
+  ]
+}
