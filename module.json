@@ -35,7 +35,7 @@
       "name": "Obscura Patreon",
       "sorting": "m",
       "packs": [
-	"archetype-actions"
+	"archetype-actions",
         "archetype-feats",
         "patreon-spells"
       ],
