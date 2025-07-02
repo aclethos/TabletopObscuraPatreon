@@ -2,9 +2,6 @@
   "id": "obscura-patreon",
   "title": "Obscura Patreon",
   "version": "1.0.0",
-  "url": "https://github.com/aclethos/TabletopObscuraPatreon/",
-  "download": "https://github.com/aclethos/TabletopObscuraPatreon/archive/refs/heads/master.zip",
-  "manifest": "https://raw.githubusercontent.com/aclethos/TabletopObscuraPatreon/master/module.json",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -33,7 +30,20 @@
     }
   ],
   "url": "https://www.patreon.com/c/tabletopobscura",
-  "packs": [
+"packFolders": [
+    {
+      "name": "Obscura Patreon",
+      "sorting": "m",
+      "packs": [
+	"archetype-actions"
+        "archetype-feats",
+        "patreon-spells"
+      ],
+      "color": null,
+      "folders": []
+    }
+],
+"packs": [
     {
       "name": "archetype-feats",
       "label": "Archetype Feats",
