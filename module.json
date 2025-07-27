@@ -1,10 +1,10 @@
 {
   "id": "obscura-patreon",
   "title": "Obscura Patreon",
-  "version": "1.0.3",
-  "url": "https://github.com/aclethos/TabletopObscuraPatreon/",
-  "download": "https://github.com/aclethos/TabletopObscuraPatreon/archive/refs/heads/master.zip",
-  "manifest": "https://raw.githubusercontent.com/aclethos/TabletopObscuraPatreon/master/module.json",
+  "version": "1.04",
+  "url": "https://github.com/aclethos/TabletopObscuraPatreon",
+  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.03/module.zip",
+  "manifest": "https://github.com/aclethos/TabletopObscuraPatreon/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -32,55 +32,88 @@
       "flags": {}
     }
   ],
-"packFolders": [
+  "packFolders": [
     {
       "name": "Obscura Patreon",
       "sorting": "m",
       "packs": [
-	"archetype-actions",
+        "obscurasrg-patreon-module",
+        "archetype-actions",
         "archetype-feats",
-        "patreon-spells"
+        "patreon-spells",
+        "implement-runes",
+        "art"
       ],
       "color": null,
       "folders": []
     }
-],
-"packs": [
+  ],
+  "packs": [
     {
       "name": "archetype-feats",
       "label": "Archetype Feats",
       "path": "packs/archetype-feats",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "patreon-spells",
       "label": "Spells",
       "path": "packs/patreon-spells",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "archetype-actions",
       "label": "Archetype Actions",
       "path": "packs/archetype-actions",
       "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "implement-runes",
+      "label": "Implement Runes",
+      "path": "packs/implement-runes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "obscurasrg-patreon-module",
+      "label": "Obscura/SRG Patreon Module",
+      "path": "packs/obscurasrg-patreon-module",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "art",
+      "label": "Art",
+      "path": "packs/art",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "pf2e",
-      "flags": {}
+      "system": "pf2e"
     }
   ]
 }
