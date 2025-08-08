@@ -1,13 +1,13 @@
 {
   "id": "obscura-patreon",
   "title": "Obscura Patreon",
-  "version": "1.04",
+  "version": "1.05",
   "url": "https://github.com/aclethos/TabletopObscuraPatreon",
-  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.03/module.zip",
+  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.04/module.zip",
   "manifest": "https://github.com/aclethos/TabletopObscuraPatreon/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "12",
-    "verified": "12"
+    "verified": "13"
   },
   "relationships": {
     "systems": [
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "description": "Patreon content",
+  "description": "<p>Patreon content for Tabletop Obscura</p>",
   "authors": [
     {
       "name": "Obscura",
@@ -42,7 +42,8 @@
         "archetype-feats",
         "patreon-spells",
         "implement-runes",
-        "art"
+        "art",
+        "feats"
       ],
       "color": null,
       "folders": []
@@ -109,11 +110,23 @@
       "label": "Art",
       "path": "packs/art",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ]
+  ],
+  "flags": {}
 }
