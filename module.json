@@ -1,7 +1,7 @@
 {
   "id": "obscura-patreon",
   "title": "Obscura Patreon",
-  "version": "1.05",
+  "version": "1.06",
   "url": "https://github.com/aclethos/TabletopObscuraPatreon",
   "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.04/module.zip",
   "manifest": "https://github.com/aclethos/TabletopObscuraPatreon/releases/latest/download/module.json",
@@ -43,7 +43,8 @@
         "patreon-spells",
         "implement-runes",
         "art",
-        "feats"
+        "feats",
+        "something-fishy"
       ],
       "color": null,
       "folders": []
@@ -126,6 +127,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "something-fishy",
+      "label": "Something Fishy - April Fools 2025",
+      "path": "packs/something-fishy",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
     }
   ],
   "flags": {}

@@ -1,0 +1,8 @@
+2025/08/13-22:39:09.117 dfc Recovering log #8
+2025/08/13-22:39:09.120 dfc Delete type=0 #8
+2025/08/13-22:39:09.121 dfc Delete type=3 #6
+2025/08/13-22:46:02.710 9370 Level-0 table #13: started
+2025/08/13-22:46:02.710 9370 Level-0 table #13: 0 bytes OK
+2025/08/13-22:46:02.711 9370 Delete type=0 #11
+2025/08/13-22:46:02.712 9370 Manual compaction at level-0 from '!folders!LOgw5SzXwQhV1OYM' @ 72057594037927935 : 1 .. '!items!uLvxnQaPugmfAdf2' @ 0 : 0; will stop at (end)
+2025/08/13-22:46:02.712 9370 Manual compaction at level-1 from '!folders!LOgw5SzXwQhV1OYM' @ 72057594037927935 : 1 .. '!items!uLvxnQaPugmfAdf2' @ 0 : 0; will stop at (end)
