@@ -1,9 +1,9 @@
 {
   "id": "obscura-patreon",
   "title": "Obscura Patreon",
-  "version": "1.08",
+  "version": "1.10",
   "url": "https://github.com/aclethos/TabletopObscuraPatreon",
-  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.04/module.zip",
+  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/v1.08/module.zip",
   "manifest": "https://github.com/aclethos/TabletopObscuraPatreon/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "12",
@@ -139,6 +139,17 @@
       "name": "something-fishy",
       "label": "Something Fishy - April Fools 2025",
       "path": "packs/something-fishy",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
       "type": "Item",
       "system": "pf2e",
       "ownership": {
