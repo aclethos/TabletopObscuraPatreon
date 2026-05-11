@@ -3,7 +3,7 @@
   "title": "Obscura Patreon",
   "version": "1.0.12",
   "url": "https://github.com/aclethos/TabletopObscuraPatreon",
-  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/1.0.11/module.zip",
+  "download": "https://github.com/aclethos/TabletopObscuraPatreon/releases/download/1.0.12/module.zip",
   "manifest": "https://github.com/aclethos/TabletopObscuraPatreon/releases/latest/download/module.json",
   "compatibility": {
     "minimum": "12",
